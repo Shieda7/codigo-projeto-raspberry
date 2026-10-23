@@ -7,9 +7,9 @@ pygame.mixer.init()
 
 # Dicionário mapeando as teclas aos arquivos de som na pasta local 'memes'
 SOUND_MAPPING = {
-    'F13': 'memes/fausto_errou.mp3',
-    'F14': 'memes/plateia_risada.mp3',
-    'F15': 'memes/tambores_vinheta.mp3',
+    'F13': 'memes/risada.mp3',
+    'F14': 'memes/palmas.mp3',
+    'F15': 'memes/mãe-tem-café.mp3',
 }
 
 def play_sound(file_path):
